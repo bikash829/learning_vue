@@ -4,9 +4,13 @@
     
 }
 
-*{
-    padding: 0;
-    margin: 0;
+/* Reset default styles */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* poppins font */
