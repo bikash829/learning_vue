@@ -9,7 +9,6 @@ body{
     z-index: -1000;
 }
 
-/* Navigation bar styles */
  /* Variables for navigation menu bar*/
  :root {
     --primary-color: #fff;
@@ -31,127 +30,8 @@ body{
     
   }
 
-  .navbar__brand {
-    /* margin-right: auto; */
-  }
-
-  .navbar__brand span{
-    color: var(--color-offgreen);
-  }
-
-  .navbar__logo {
-    width: 100px; /* Set your logo width */
-    height: auto; /* Maintain aspect ratio */
-  }
-
-  .nav ul{
-    list-style-type: none;
-    display: flex;
-  }
-
-  .nav__item {
-    /* margin-right: var(--menu-spacing); */
-    font-weight: 500;
-    font-size: .92rem;
-    text-transform: uppercase;
-
-  }
-
-  .nav__link {
-    color: var(--secondary-color);
-    text-decoration: none;
-    padding: 8px 20px;
-
-  }
-
-  .nav__item:hover .nav__link{
-    background-color: var(--color-offblue);
-    color: var(--primary-color);
-    border-radius: 40px;
-    box-shadow: inset 0 0 3px 0 var(--color-offblue);
-    /* transition: 1000ms linear; */
-  }
-
-  .nav__item:first-child .nav__link{
-    background-color: var(--color-offblue);
-    color: var(--primary-color);
-    border-radius: 40px;
-  }
-
- 
-
-  .social {
-    display: flex;
-    align-items: center;
-  }
-
-  .social__link {
-    color: var(--secondary-color);
-    text-decoration: none;
-    margin-left: var(--menu-spacing);
-  }
-
-  /* Responsive styles */
-  @media screen and (max-width: 768px) {
-    .nav {
-      display: none;
-    }
-
-    .social {
-      justify-content: flex-end;
-    }
-  }
   
   .link_normal{
     text-decoration: none;
     color: var(--secondary-color);
   }
-/* .nav-container{
-    background-color: rgb(255, 255, 255);
-    padding: 0 2em 0 2em;
-    
-}
-
-.nav-wrapper{
-    display: flex;
-    justify-content: space-between;
-}
-
-.nav__logo{
-
-}
-
-.nav__menu{
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    text-transform: uppercase;
-    
-}
-
-.nav__menu .nav__item{
-    margin: 0 10px;
-}
-.nav__menu .nav__link{
-    display: flex;
-    align-items: center;
-    height: 100%;
-}
-
-.nav__social-icon{
-    
-}
-
-.nav__social-icon .social-icon{
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.social-icon .social-icon__item{
-
-}
-
-.social-icon .social-icon__link{
-
-} */
